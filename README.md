@@ -67,14 +67,14 @@ pip install playwright openpyxl
 playwright install chromium
 
 # 3. 运行
-python CNKIBug_dev0_0_4.py
+python CNKIBug_dev0_0_5.py
 ```
 
 ### 方式三：自行打包为 exe
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --console --name CNKIBug CNKIBug_dev0_0_4.py
+pyinstaller --onefile --console --name CNKIBug CNKIBug_dev0_0_5.py
 # 生成文件在 dist/CNKIBug.exe
 ```
 
@@ -94,7 +94,7 @@ pyinstaller --onefile --console --name CNKIBug CNKIBug_dev0_0_4.py
 
 ```
 CNKIBug/
-├── CNKIBug_dev0_0_4.py   # 主程序（当前版本）
+├── CNKIBug_dev0_0_5.py   # 主程序（当前版本）
 ├── README.md
 └── dist/
     └── CNKIBug.exe        # 打包产物（不纳入版本管理）
