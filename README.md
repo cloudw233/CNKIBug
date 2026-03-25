@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-0.0.5-orange)
+![Version](https://img.shields.io/badge/Version-0.0.6-orange)
 
 ---
 
@@ -24,7 +24,7 @@
 ```
 ==================================================
   CNKI_Bug_dev  |  copyright by Kaffu_Alcaid
-  Version 0.0.5
+  Version 0.0.6
 ==================================================
   本软件用于抓取中国知网的论文标题
 
@@ -68,14 +68,14 @@ pip install playwright openpyxl
 playwright install chromium
 
 # 3. 运行
-python CNKIBug_dev0_0_5.py
+python CNKIBug_v0.0.6.py
 ```
 
 ### 方式三：自行打包为 exe
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --console --name CNKIBug CNKIBug_dev0_0_5.py
+pyinstaller --onefile --console --name CNKIBug CNKIBug_v0.0.6.py
 # 生成文件在 dist/CNKIBug.exe
 ```
 
@@ -95,7 +95,7 @@ pyinstaller --onefile --console --name CNKIBug CNKIBug_dev0_0_5.py
 
 ```
 CNKIBug/
-├── CNKIBug_dev0_0_5.py   # 主程序（当前版本）
+├── CNKIBug_vxxxx.py   # 主程序（当前版本）
 ├── README.md
 └── dist/
     └── CNKIBug.exe        # 打包产物（不纳入版本管理）
@@ -121,3 +121,31 @@ CNKIBug/
 ##  作者
 
 **Kaffu_Alcaid** — 非计算机专业，业余开发，欢迎 Issue 和 PR。
+
+## 🌟 致谢 / Contributors
+
+感谢以下小伙伴对 CNKIBug 做出的突出贡献（包括核心代码、全平台测试等）：
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/KaffuAlcaid">
+        <img src="https://github.com/KaffuAlcaid.png" width="80px;" alt="KaffuAlcaid"/>
+        <br />
+        <sub><b>Kaffu_Alcaid</b></sub>
+      </a>
+      <br />
+      核心开发 & 产品架构 (不要问我为什么在里边)
+    </td>
+    
+    <td align="center">
+      <a href="https://github.com/Speechlessyc">
+        <img src="https://github.com/Speechlessyc.png" width="80px;" alt="Speechlessyc"/>
+        <br />
+        <sub><b>Speechlessyc</b></sub>
+      </a>
+      <br />
+      图标设计 & 测试统筹（大佬跪谢了）
+    </td>
+  </tr>
+</table>
